@@ -7,8 +7,8 @@ Documentation for JetBot containers on NVIDIA Jetson Orin Nano (JetPack 36.4.0 /
 
 ## Images
 
-- ML: `moatazsawi/jetbot-orin-ml:IMAGE_TAG`
-- Display: `moatazsawi/jetbot-orin-display:IMAGE_TAG` (coming soon)
+- ML: `moatazsawi/jetbot-orin-ml:36.4.0`
+- Display: `moatazsawi/jetbot-orin-display:36.4.0` (coming soon)
 
 ## Requirements
 

@@ -62,7 +62,7 @@ Use this procedure whenever you want to start the ML environment.
 
 ``` bash
 cd jetbot-orin
-./scripts/run_ml.sh
+sudo ./scripts/run_ml.sh
 ```
 
 ### Option B) Manual command
@@ -81,7 +81,7 @@ sudo docker run -it --rm \
   --volume /dev/bus/usb:/dev/bus/usb \
   --volume /tmp/argus_socket:/tmp/argus_socket \
   -v ./notebooks:/jetbot_examples/notebooks \
-  --workdir /jetson_orin_examples \
+  --workdir /jetbot_examples \
   moatazsawi/jetbot-orin-ml:36.4.0
 ```
 
@@ -89,9 +89,13 @@ sudo docker run -it --rm \
 
 ## Access JupyterLab
 
-After the container starts, open your browser and go to:
+After starting the ML container, the terminal will display a message similar to:
 
-    http://<JETSON_IP>:8888
+    JupyterLab URL: http://192.168.10.4:8888 (password "jetbot")
 
+Open the displayed URL in your browser.
 
+When prompted, use:
+
+    Password: jetbot
 ------------------------------------------------------------------------

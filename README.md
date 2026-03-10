@@ -48,7 +48,13 @@ reboot.
 Manual equivalent command:
 
 ``` bash
-sudo docker run -it -d --restart always   --runtime nvidia   --network=host   --privileged   --name=jetbot_display   mkhairalla/jetbot-orin-display:r36.4.0
+sudo docker run -it -d \
+  --restart always \
+  --runtime nvidia \
+  --network host \
+  --privileged \
+  --name jetbot_display \
+  moatazsawi/jetbot-orin-display:36.4.0
 ```
 
 

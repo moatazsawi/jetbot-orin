@@ -42,7 +42,7 @@ Tip: You can show a clickable thumbnail in GitHub like this:
 Use this orientation reference while following the steps.
 
 **Figure 3: Orientation reference**  
-![Figure 3](images/figure-03.png)
+![Figure 3](images/figure-03.jpg)
 
 ---
 

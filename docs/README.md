@@ -4,14 +4,12 @@ Prepared by: Mutaz Khairalla
 Based on the SparkFun JetBot AI Kit V2.0 assembly guide (originally for Jetson Nano), adapted for **Jetson Orin Nano Developer Kit**.
 
 ## Assembly video
-Add your YouTube link here once uploaded:
 
-- Video: https://youtube.com/watch?v=YOUR_VIDEO_ID
-
-Tip: You can show a clickable thumbnail in GitHub like this:
-```md
-[![JetBot Assembly Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtube.com/watch?v=YOUR_VIDEO_ID)
-```
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=I66rY54UtwI">
+    <img src="images/assembly-video-thumbnail.png" width="700" style="position: relative;">
+  </a>
+</p>
 
 ---
 

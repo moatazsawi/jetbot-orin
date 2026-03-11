@@ -1,6 +1,5 @@
 # JetBot (Jetson Orin Nano) Assembly Guide
 
-Prepared by: Mutaz Khairalla  
 Based on the SparkFun JetBot AI Kit V2.0 assembly guide (originally for Jetson Nano), adapted for **Jetson Orin Nano Developer Kit**.
 
 ## Assembly video

@@ -30,10 +30,17 @@ Tip: You can show a clickable thumbnail in GitHub like this:
 | 9 | Power cable | Adafruit 5449 USB-C PD to 5.5mm barrel (9V 5A, 1.2m) |
 
 **Figure 1: Jetson Orin Nano JetBot parts**  
-![Figure 1](images/figure-01.jpg)
+
+<img src="images/figure-01.jpg" width="600"/>
+
+<sub>Figure 1: JetBot parts</sub>
 
 **Figure 2: JetBot chassis parts**  
-![Figure 2](images/figure-02.jpg)
+
+<img src="images/figure-02.jpg" width="600"/>
+
+<sub>Figure 2: JetBot cahssis parts</sub>
+
 
 ---
 
@@ -42,7 +49,10 @@ Tip: You can show a clickable thumbnail in GitHub like this:
 Use this orientation reference while following the steps.
 
 **Figure 3: Orientation reference**  
-![Figure 3](images/figure-03.jpg)
+
+<img src="images/figure-03.jpg" width="600"/>
+
+<sub>Figure 3: Orientation reference</sub>
 
 ---
 
@@ -52,21 +62,50 @@ Use this orientation reference while following the steps.
 
 Follow the images in order:
 
-![Step 1.1](images/figure-04.jpg)
-![Step 1.2](images/figure-05.jpg)
-![Step 1.3](images/figure-06.jpg)
-![Step 1.4](images/figure-07.jpg)
-![Step 1.5](images/figure-08.jpg)
-![Step 1.6](images/figure-09.jpg)
+
+<img src="images/figure-04.jpg" width="600"/>
+
+<sub>Figure 4: Step 1.1</sub>
+
+<img src="images/figure-05.jpg" width="600"/>
+
+<sub>Figure 5: Step 1.2</sub>
+
+<img src="images/figure-06.jpg" width="600"/>
+
+<sub>Figure 6: Step 1.3</sub>
+
+<img src="images/figure-07.jpg" width="600"/>
+
+<sub>Figure 7: Step 1.4</sub>
+
+<img src="images/figure-08.jpg" width="600"/>
+
+<sub>Figure 8: Step 1.5</sub>
+
+<img src="images/figure-09.jpg" width="600"/>
+
+<sub>Figure 9: Step 1.6</sub>
 
 ---
 
 ### Step 2 — Camera assembly and installation
 
-![Step 2.1](images/figure-10.jpg)
-![Step 2.2](images/figure-11.jpg)
-![Step 2.3](images/figure-12.jpg)
-![Step 2.4](images/figure-13.jpg)
+<img src="images/figure-10.jpg" width="600"/>
+
+<sub>Figure 10: Step 2.1</sub>
+
+<img src="images/figure-11.jpg" width="600"/>
+
+<sub>Figure 11: Step 2.2</sub>
+
+<img src="images/figure-12.jpg" width="600"/>
+
+<sub>Figure 12: Step 2.3</sub>
+
+<img src="images/figure-13.jpg" width="600"/>
+
+<sub>Figure 13: Step 2.4</sub>
 
 ---
 
@@ -74,14 +113,21 @@ Follow the images in order:
 
 Recommendation: use **Dual Lock** tape to allow easy battery replacement.
 
-![Step 3.1](images/figure-14.jpg)
-![Step 3.2](images/figure-15.jpg)
+<img src="images/figure-14.jpg" width="600"/>
+
+<sub>Figure 14: Step 3.1</sub>
+
+<img src="images/figure-15.jpg" width="600"/>
+
+<sub>Figure 15: Step 3.2</sub>
 
 ---
 
 ### Step 4 — Place motor driver and wire battery + motors to driver
 
-![Step 4](images/figure-16.jpg)
+<img src="images/figure-16.jpg" width="600"/>
+
+<sub>Figure 16: Step 4</sub>
 
 ---
 
@@ -89,7 +135,9 @@ Recommendation: use **Dual Lock** tape to allow easy battery replacement.
 
 Recommendation: use  double-sided tape for a secure fit.
 
-![Step 5](images/figure-17.jpg)
+<img src="images/figure-17.jpg" width="600"/>
+
+<sub>Figure 17: Step 5</sub>
 
 ---
 
@@ -97,8 +145,13 @@ Recommendation: use  double-sided tape for a secure fit.
 
 Remove the securing screw, insert the SSD, then re-secure it.
 
-![Step 6.1](images/figure-18.jpg)
-![Step 6.2](images/figure-19.jpg)
+<img src="images/figure-18.jpg" width="600"/>
+
+<sub>Figure 18: Step 6.1</sub>
+
+<img src="images/figure-19.jpg" width="600"/>
+
+<sub>Figure 19: Step 6.2</sub>
 
 ---
 
@@ -106,20 +159,35 @@ Remove the securing screw, insert the SSD, then re-secure it.
 
 Fix the Orin Nano to the top plate using double-sided tape.
 
-![Step 7.1](images/figure-20.jpg)
-![Step 7.2](images/figure-21.jpg)
+<img src="images/figure-20.jpg" width="600"/>
+
+<sub>Figure 20: Step 7.1</sub>
+
+<img src="images/figure-21.jpg" width="600"/>
+
+<sub>Figure 21: Step 7.2</sub>
 
 Additional reference images:
 
-![Figure 22](images/figure-22.jpg)
-![Figure 23](images/figure-23.jpg)
+<img src="images/figure-22.jpg" width="600"/>
+
+<sub>Figure 22</sub>
+
+<img src="images/figure-23.jpg" width="600"/>
+
+<sub>Figure 23</sub>
 
 ---
 
 ### Step 8 — Install Qwiic pHAT and OLED
 
-![Step 8.1](images/figure-24.jpg)
-![Step 8.2](images/figure-25.jpg)
+<img src="images/figure-24.jpg" width="600"/>
+
+<sub>Figure 24: Step 8.1</sub>
+
+<img src="images/figure-25.jpg" width="600"/>
+
+<sub>Figure 25: Step 8.2</sub>
 
 ---
 
@@ -130,13 +198,67 @@ Additional reference images:
   - Qwiic pHAT → OLED
   - OLED → Motor driver
 
-![Figure 26](images/figure-26.jpg)
-![Figure 27](images/figure-27.jpg)
-![Figure 28](images/figure-28.jpg)
+<img src="images/figure-26.jpg" width="600"/>
+
+<sub>Figure 26</sub>
+
+<img src="images/figure-27.jpg" width="600"/>
+
+<sub>Figure 27</sub>
+
+<img src="images/figure-28.jpg" width="600"/>
+
+<sub>Figure 28</sub>
 
 ---
 
-Add common troubleshooting notes here as you encounter them, for example:
-- OLED not detected on I2C
-- Camera not detected / Argus issues
-- Motor driver not responding
+## Troubleshooting
+
+### Camera not detected
+
+If the camera is not working or not visible in Jupyter/OpenCV, follow these steps:
+
+#### 1) Check if the camera is listed
+
+```bash
+v4l2-ctl --list-devices
+```
+
+You should see a camera device listed (for example `/dev/video0`).
+
+If no camera device appears, continue to the next step.
+
+---
+
+#### 2) Enable CSI camera using Jetson-IO
+
+```bash
+sudo python3 /opt/nvidia/jetson-io/jetson-io.py
+```
+
+Then:
+
+1. Select **Configure Jetson 24pin CSI Connector**
+2. Configure for compatible hardware
+3. Camera IMS219 Dual
+4. Save and reboot
+
+---
+
+After rebooting, verify again:
+
+```bash
+v4l2-ctl --list-devices
+```
+
+If the camera appears in the list, the CSI driver configuration was successful.
+
+---
+
+### Additional Checks
+
+- Ensure the CSI ribbon cable is fully inserted and aligned correctly.
+- Confirm the camera is connected to the correct CSI port.
+- If using Docker, make sure the container includes:
+  - `--device /dev/video0`
+  - `--volume /tmp/argus_socket:/tmp/argus_socket`

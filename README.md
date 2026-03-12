@@ -12,6 +12,9 @@ Compatible with:
 -   ARM64 architecture
 
 ------------------------------------------------------------------------
+## Hardware Assembly
+
+➡ Full assembly guide: [docs/](docs/)
 
 ## One-time setup (first time only)
 

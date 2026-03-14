@@ -227,6 +227,13 @@ If the camera is not working or not visible in Jupyter/OpenCV, follow these step
 v4l2-ctl --list-devices
 ```
 
+If `v4l2-ctl` is not available, install it with:
+
+```bash
+sudo apt update
+sudo apt install -y v4l-utils
+```
+
 You should see a camera device listed (for example `/dev/video0`).
 
 If no camera device appears, continue to the next step.
@@ -241,7 +248,7 @@ sudo python3 /opt/nvidia/jetson-io/jetson-io.py
 
 Then:
 
-1. Select **Configure Jetson 24pin CSI Connector**
+1. Select **Configure Jetson 22pin CSI Connector**
 2. Configure for compatible hardware
 3. Camera IMS219 Dual
 4. Save and reboot

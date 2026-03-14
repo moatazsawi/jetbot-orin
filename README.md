@@ -37,6 +37,7 @@ sudo docker pull moatazsawi/jetbot-orin-display:36.4.0
 ### 3) Make scripts executable
 
 ``` bash
+cd jetbot-orin
 sudo chmod +x scripts/run_ml.sh scripts/run_display.sh
 ```
 

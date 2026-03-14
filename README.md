@@ -38,7 +38,7 @@ sudo docker pull moatazsawi/jetbot-orin-display:36.4.0
 
 ``` bash
 cd jetbot-orin
-sudo chmod +x scripts/run_ml.sh scripts/run_display.sh
+sudo chmod +x scripts/run-ml.sh scripts/run-display.sh
 ```
 
 ### 4) Start the display container (runs at boot)
@@ -47,7 +47,7 @@ This container runs in the background and automatically restarts after
 reboot.
 
 ``` bash
-./scripts/run_display.sh
+./scripts/run-display.sh
 ```
 
 Manual equivalent command:
@@ -73,7 +73,7 @@ Use this procedure whenever you want to start the ML environment.
 
 ``` bash
 cd jetbot-orin
-sudo ./scripts/run_ml.sh
+sudo ./scripts/run-ml.sh
 ```
 
 ### Option B) Manual command

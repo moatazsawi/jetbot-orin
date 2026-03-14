@@ -37,6 +37,7 @@ sudo docker pull moatazsawi/jetbot-orin-display:36.4.0
 ### 3) Make scripts executable
 
 ``` bash
+cd
 cd jetbot-orin
 sudo chmod +x scripts/run-ml.sh scripts/run-display.sh
 ```
@@ -72,13 +73,15 @@ Use this procedure whenever you want to start the ML environment.
 ### Option A) Recommended --- use the script
 
 ``` bash
+cd
 cd jetbot-orin
-sudo ./scripts/run-ml.sh
+./scripts/run-ml.sh
 ```
 
 ### Option B) Manual command
 
 ``` bash
+cd
 cd jetbot-orin
 
 sudo docker run -it --rm \

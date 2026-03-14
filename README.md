@@ -23,6 +23,7 @@ Run these steps once on your Jetson Orin Nano.
 ### 1) Clone the repo
 
 ``` bash
+cd
 git clone https://github.com/moatazsawi/jetbot-orin.git
 ```
 

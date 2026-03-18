@@ -1,0 +1,8 @@
+notebooks/demo
+notebooks/collision_avoidance/dataset
+notebooks/collision_avoidance/*.pth
+notebooks/collision_avoidance/*.zip
+notebooks/road_following/*.pth
+notebooks/road_following/dataset*
+notebooks/road_following/data_collection_gamepad.ipynb
+notebooks/road_following/*.zip

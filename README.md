@@ -23,7 +23,7 @@ Run these steps once on your Jetson Orin Nano.
 ### 1) Clone the repo
 
 ``` bash
-cd
+cd $HOME
 git clone https://github.com/moatazsawi/jetbot-orin.git
 ```
 
@@ -37,7 +37,7 @@ sudo docker pull moatazsawi/jetbot-orin-display:36.4.0
 ### 3) Make scripts executable
 
 ``` bash
-cd
+cd $HOME
 cd jetbot-orin
 sudo chmod +x scripts/run-ml.sh scripts/run-display.sh
 ```
@@ -73,7 +73,7 @@ Use this procedure whenever you want to start the ML environment.
 ### Option A) Recommended --- use the script
 
 ``` bash
-cd
+cd $HOME
 cd jetbot-orin
 ./scripts/run-ml.sh
 ```
@@ -81,7 +81,7 @@ cd jetbot-orin
 ### Option B) Manual command
 
 ``` bash
-cd
+cd $HOME
 cd jetbot-orin
 
 sudo docker run -it --rm \

@@ -3,15 +3,19 @@
 Jetson Orin Nano (JetPack 6.x)  
 Docker image based on L4T 36.4.0
 
-This project provides a Docker-based environment to run JetBot notebooks on Jetson Orin Nano, including:
+This project provides a Docker-based environment for running JetBot notebooks on Jetson Orin Nano, including:
 
 - ML development (JupyterLab + CUDA + PyTorch + TensorFlow)
 - OLED display service (IP address & system stats on SparkFun OLED)
 
+This project was developed as part of AI Lab activities at UAE University, supporting JetBot-based education and experimentation.
+
+---
+
 ## Platform
 
 - NVIDIA Jetson Orin Nano
-- JetPack 6.x
+- JetPack 6.x (tested on 6.0 / 6.1 / 6.2)
 - Docker image based on L4T 36.4.0
 - ARM64 architecture
 

@@ -24,13 +24,13 @@ This guide is adapted from the official [SparkFun JetBot AI Kit V2.0 Assembly Gu
 |---:|---|---|
 | 1 | Compute | NVIDIA Jetson Orin Nano Developer Kit |
 | 2 | Storage | Lexar NM620 M.2 2280 PCIe Gen3x4 NVMe SSD |
-| 3 | Power | Charmcast PowerBank 10400mAh (W1052) |
+| 3 | Power | UGREEN Power Bank 10000mAh, 30W (PB502) |
 | 4 | Chassis | ROB-17279 JetBot Chassis Kit V2 |
 | 5 | Qwiic pHAT | DEV-15945 SparkFun Qwiic pHAT V2.0 |
 | 6 | Motor driver | ROB-15451 SparkFun Qwiic Motor Driver |
 | 7 | OLED | LCD-22495 SparkFun Micro OLED Breakout (Qwiic) |
 | 8 | Camera | IMX219-200 8MP Camera (200° FOV) |
-| 9 | Power cable | Adafruit 5449 USB-C PD to 5.5mm barrel (9V 5A, 1.2m) |
+| 9 | Power cable | Adafruit 5451 USB-C PD to 5.5mm barrel (15V 5A, 1.2m) |
 
 **Figure 1: Jetson Orin Nano JetBot parts**  
 

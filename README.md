@@ -33,38 +33,36 @@ Run these steps once on your Jetson Orin Nano.
 
 ### 1) Clone the repo
 
-``` bash
+```bash
 cd $HOME
 git clone https://github.com/moatazsawi/jetbot-orin.git
 ```
 
 ### 2) Pull Docker images
 
-``` bash
+```bash
 sudo docker pull moatazsawi/jetbot-orin-ml:36.4.0
 sudo docker pull moatazsawi/jetbot-orin-display:36.4.0
 ```
 
 ### 3) Make scripts executable
 
-``` bash
-cd $HOME
-cd jetbot-orin
-sudo chmod +x scripts/run-ml.sh scripts/run-display.sh
+```bash
+cd $HOME/jetbot-orin
+chmod +x scripts/run-ml.sh scripts/run-display.sh
 ```
 
 ### 4) Start the display container (runs at boot)
 
-This container runs in the background and automatically restarts after
-reboot.
+This container runs in the background and automatically restarts after reboot.
 
-``` bash
+```bash
 ./scripts/run-display.sh
 ```
 
 Manual equivalent command:
 
-``` bash
+```bash
 sudo docker run -it -d \
   --restart always \
   --runtime nvidia \
@@ -74,26 +72,23 @@ sudo docker run -it -d \
   moatazsawi/jetbot-orin-display:36.4.0
 ```
 
-
-------------------------------------------------------------------------
+---
 
 ## Run the ML container (every time you want to use JupyterLab)
 
 Use this procedure whenever you want to start the ML environment.
 
-### Option A) Recommended --- use the script
+### Option A) Recommended — use the script
 
-``` bash
-cd $HOME
-cd jetbot-orin
+```bash
+cd $HOME/jetbot-orin
 ./scripts/run-ml.sh
 ```
 
 ### Option B) Manual command
 
-``` bash
-cd $HOME
-cd jetbot-orin
+```bash
+cd $HOME/jetbot-orin
 
 sudo docker run -it --rm \
   --runtime nvidia \
@@ -110,17 +105,40 @@ sudo docker run -it --rm \
   moatazsawi/jetbot-orin-ml:36.4.0
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Access JupyterLab
 
 After starting the ML container, the terminal will display a message similar to:
 
-    JupyterLab URL: http://192.168.10.4:8888 (password "jetbot")
+```
+JupyterLab URL: http://192.168.10.4:8888 (password "jetbot")
+```
 
 Open the displayed URL in your browser.
 
 When prompted, use:
 
-    Password: jetbot
-------------------------------------------------------------------------
+```
+Password: jetbot
+```
+
+---
+
+📓 Explore notebooks and follow a step-by-step guide:  
+[Notebooks](notebooks/)
+
+---
+
+## Video Demonstrations
+
+Each playlist provides a structured walkthrough of a JetBot task.
+
+### JetBot Basics
+▶ [JetBot Basics (Jetson Orin Nano)](https://youtube.com/playlist?list=PLzd-shz0FWwSOYQclVobdIR8I0EKIRDfq)
+
+### Collision Avoidance
+▶ [JetBot Collision Avoidance (Jetson Orin Nano)](https://youtube.com/playlist?list=PLzd-shz0FWwTXMWMYDSj5Sgr-amzIUEGh)
+
+### Object Following (YOLO)
+▶ [JetBot Object Following with YOLO (Jetson Orin Nano)](https://youtube.com/playlist?list=PLzd-shz0FWwQqYxJ2lIHmc4cbHmdZSF3q)

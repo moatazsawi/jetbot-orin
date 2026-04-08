@@ -1,8 +1,15 @@
 notebooks/demo
+notebooks/.ipynb_checkpoints
+notebooks/collision_avoidance/.ipynb_checkpoints
 notebooks/collision_avoidance/dataset
+notebooks/collision_avoidance/backup
 notebooks/collision_avoidance/*.pth
 notebooks/collision_avoidance/*.zip
+notebooks/road_following/.ipynb_checkpoints
 notebooks/road_following/*.pth
 notebooks/road_following/dataset*
 notebooks/road_following/data_collection_gamepad.ipynb
 notebooks/road_following/*.zip
+notebooks/basic_motion/.ipynb_checkpoints
+notebooks/object_following/.ipynb_checkpoints
+

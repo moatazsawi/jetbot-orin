@@ -142,3 +142,6 @@ Each playlist provides a structured walkthrough of a JetBot task.
 
 ### Object Following (YOLO)
 ▶ [JetBot Object Following with YOLO (Jetson Orin Nano)](https://youtube.com/playlist?list=PLzd-shz0FWwQqYxJ2lIHmc4cbHmdZSF3q)
+
+### Road Following
+▶ [JetBot Road Following (Jetson Orin Nano)](https://youtube.com/playlist?list=PLzd-shz0FWwTqZqVYKZQwIGeXGuZjPZV7&si=svJbzC4aKR-DYKbv)
